@@ -2,6 +2,15 @@ body{
   background-color: #ddd;
   font-family: 'Tilt Neon', sans-serif;
 }
+.allprojectContent{
+  width: 450px;
+}
+
+@media screen and (max-width:450px) {
+  .allprojectContent{
+    width: 380px;
+  }
+}
 .Btn {
   width: 100px;
   height: 35px;

@@ -34,7 +34,7 @@ function copy(){
   return <>
     <div className="container d-flex justify-content-center align-items-center min-vh-100 flex-column">
     <h2 className='fw-bold'>Quote Generator</h2>
-    <div style={{width:'450px'}}  className="bg-black d-flex flex-wrap flex-column p-4  rounded-2">
+    <div   className="bg-black allprojectContent d-flex flex-wrap flex-column p-4  rounded-2">
         <span className='text-white text-start'>{quete.content}</span>
         <span style={{color:'rgb(159 163 167 / 75)'}} className='text-end my-2 '>{quete.author}</span>
         <div className="d-flex">
